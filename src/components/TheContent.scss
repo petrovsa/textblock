@@ -1,0 +1,33 @@
+.content-text {
+    margin: 0 auto;
+  
+    .list {
+      grid: 25px;
+    &-bullet {
+      list-style: disc;
+    }
+  
+    &-number {
+      list-style: decimal;
+    }
+    
+    &-item {
+      padding-left: 5px;
+      
+      &:not(:last-child) {
+        padding-bottom: 12px;
+      }
+    }
+  }
+  
+    .text-block {
+      padding-bottom: 20px;
+      font-size: 16px;
+      font-weight: 26px;
+    }
+    
+    @media screen and (min-width: 1024px) {
+      max-width: 1024px;
+      padding: 20px;
+        }  
+  }
